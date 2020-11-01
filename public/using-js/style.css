@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 550px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width:550px){
+    .container{
+        width: 300px;
+    }
+}
